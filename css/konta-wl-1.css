@@ -1,0 +1,35 @@
+.woosw-list table.woosw-items tr td {
+    padding: 20px;
+}
+.woosw-list table.woosw-items .woosw-item .woosw-item--name a {
+    font-size: 20px;
+    color: var(--title-color);
+}
+.woosw-list table.woosw-items .woosw-item .woosw-item--name a {
+    font-size: 20px;
+}
+.woosw-list table.woosw-items tr .woosw-item--actions {
+    width: 88px;
+}
+.woosw-list table.woosw-items .woosw-item .woosw-item--name a:hover {
+       color: var(--theme-color);
+}
+.woosw-list table.woosw-items .woosw-item .woosw-item--atc .add_to_cart_inline .cart-button.icon-btn.added {
+    display: none;
+}
+.woosw-list table.woosw-items tr .woosw-item--actions {
+    width: 170px;
+}
+.woosw-list table.woosw-items .woosw-item .woosw-item--atc p, .woosw-list table.woosw-items .woosw-item .woosw-item--atc .add_to_cart_inline {
+    text-align: center;
+}
+.woosw-list table.woosw-items .woosw-item .woosw-item--atc .add_to_cart_inline .added_to_cart.wc-forward {
+    height: 50px;
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    padding: 0 20px;
+    background-color: var(--icon-bg, #f7f7f7);
+    border: 1px solid var(--th-border-color);
+    color: var(--title-color);
+}
