@@ -8141,6 +8141,8 @@ ol.wp-block-rss {
   padding: 0;
   -webkit-filter: none;
           filter: none;
+    background-color: red;
+
   /* Medium devices */
 }
 
@@ -8175,6 +8177,8 @@ ol.wp-block-rss {
 @media (max-width: 1500px) {
   .logo-style3 {
     padding: 0 90px 39px 0;
+    background-color: red;
+
   }
   .header-layout5 .header-top .container {
     padding-left: 300px;
@@ -17319,11 +17323,18 @@ span.select2-selection.select2-selection--single:focus {
 .signature-box .avater img {
   border-radius: 999px;
   width: 55px;
+  height: 55px;
+  border-radius: 50%;
 }
 
 .signature-box .content {
   text-align: center;
+
+  img {
+    width: 170px;
+  }
 }
+
 
 .signature-box .desig {
   font-size: 14px;
