@@ -8177,7 +8177,7 @@ ol.wp-block-rss {
 @media (max-width: 1500px) {
   .logo-style3 {
     padding: 0 90px 39px 0;
-    background-color: red;
+    /* background-color: red; */
 
   }
   .header-layout5 .header-top .container {
